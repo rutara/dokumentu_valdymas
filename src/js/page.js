@@ -1,4 +1,7 @@
 //order funkcija
+$().ready(function () {
+
+
   $(".order-btn").click(function() {
     $("#header,main").css("filter","brightness(30%)");
     $("#order").css("display","initial");
@@ -21,7 +24,7 @@
         }   
            })
   });
-
+});
  
 
   
